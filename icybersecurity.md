@@ -1,54 +1,62 @@
-# Getting Started with Lab
+## Getting Started
+1. Click on the **ACCESS LAB** button. Wait until the Cloud Lab VM loads (this could take up to 10 minutes) 
 
-1. To get the lab environment details, you can select **Lab Environment** tab. 
 
-   ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/1a.PNG "Lab Environment")
+2. You can use the Cloud Lab VM either in the classroom or use the generated RDP/SSH credentials to connect from your local machine. Go to the **Lab Environment** tab next to get Azure login credentials and Environment details (RDP/SSH credentials). 
+     - For Windows machines, you will get Remote Desktop Connection credentials. 
+     - For Linux machines, you will get the SSH login credentials.   
  
- 
- 
-## Login to Azure Portal
-1. In the JumpVM, click on Azure portal shortcut of Microsoft Edge browser which is created on desktop.
 
-   ![azure portal.](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/1d.PNG)
-   
-1. When you click on Azure portal, edge browser welcome screen will come up, select **Get started**.
+## Getting Help
+- If you have a technical problem while using your VM, you can send an email to Udacity Support at [udacity-labsupport@udacity.com](mailto:udacity-labsupport@udacity.com). 
+- Please be sure to send your message from the email you used to enroll in the Nanodegree program. Use the following email template:   
+     - Subject Line: Error in <Lab name>
+     - Timestamp and Timezone:
+     - Brief description of what you were doing when the issue occurred: 
+     - Screenshots:
 
-   ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/17.png "Get started")
    
-1. On next window, click on **Confirm**.
 
-   ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/18.png "Confirm")
+## Logging into the Azure Portal
+You can go to the [Azure portal](https://portal.azure.com) to view the current VM and associated resources from your local or current VM's browser.  Here are the signing in steps:
    
-1. Now, you can close the popup which is coming up.
-
-   ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/19.png "Confirm")
-   
-1. Now, you will see two tabs in edge browser, close first tab named with **Microsoft Edge**.
-
-   ![](https://github.com/bhavangowdan/MCW-Machine-Learning/blob/master/Hands-on%20lab/images/20.png "Close Tab")
-   
-1. On **Sign in to Micsoft Azure** tab you will see login screen, in that enter following email/username and then click on **Next**. 
+1. On [Sign in page](https://azure.microsoft.com/en-in/account/), enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/21.png "Enter Email")
      
-1. Now enter the following password and click on **Sign in**.
+2. Enter the password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
    
      ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/22.png "Enter Password")
      
-1. If you see the pop-up **Stay Signed in?**, click No
+3. If you see the pop-up **Stay Signed in?**, click No. 
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+4. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+5. If a **Welcome to Microsoft Azure** pop-up window appears, click **Maybe Later** to skip the tour.
    
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** to see the resource groups.
+6. Now, you will see Azure Portal Dashboard; click on the **Resource groups** to view the resource groups.
 
    ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/23.png "Resource groups")
    
-1. Confirm you have all resource group are present as shown below.
+7. Confirm you have default resource group(s) present, as shown below.
 
    ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/1c.PNG "Resource groups")
-   
-1. Now, click on the **Resource group** 
+  
+
+     
+## Restrictions 
+- Cloud Lab's session time is limited. Your session will expire after the validity expires, and you will lose all your resources in the temporary Azure account. 
+
+
+- Later, when you come back or refresh the Cloud lab page, you will get a new VM with a new pair of temporary credentials. 
+
+
+- **You will not be able to create additional Resource Groups.**  There is one resource group already created for you named cloud-demo-XXXXXX.  Choose the existing Resource Group when creating resources.  
+
+
+- When you create a new Virtual Machine, please make sure to change the default disc type from "Premium SSD" to "**Standard HDD**" for the "OS Disk Type" field on the "Discs" tab. Failure to do so will trigger a "Validation failed" error message.
+
+
+- You will not be able to create Active Directory resources. This is not a requirement for any project/exercise.
