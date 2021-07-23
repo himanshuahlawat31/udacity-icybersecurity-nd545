@@ -20,7 +20,7 @@
 ## Logging into the Azure Portal
 You can go to the [Azure portal](https://portal.azure.com), from you local or current VM's browser, to view the current VM and associated resources.  Here are the signing in steps:
    
-1. On **Sign in to Micsoft Azure** prompt, enter following email/username and then click on **Next**. 
+1. On [Sign in page](https://azure.microsoft.com/en-in/account/), enter following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/21.png "Enter Email")
