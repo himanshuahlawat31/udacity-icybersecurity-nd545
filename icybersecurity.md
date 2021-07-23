@@ -47,10 +47,10 @@ You can go to the [Azure portal](https://portal.azure.com) to view the current V
 
      
 ## Restrictions 
-- Cloud Labs' session time is limited. Your session will expire after the validity expires, and you will lose all your resources in the temporary Azure account. 
+- Cloud Lab's session time is limited. Your session will expire after the validity expires, and you will lose all your resources in the temporary Azure account. 
 
 
-Later, when you come back or refresh the Cloud lab page, you will get a new VM with a new pair of temporary credentials. 
+- Later, when you come back or refresh the Cloud lab page, you will get a new VM with a new pair of temporary credentials. 
 
 
 - **You will not be able to create additional Resource Groups.**  There is one resource group already created for you named cloud-demo-XXXXXX.  Choose the existing Resource Group when creating resources.  
