@@ -44,3 +44,19 @@ You can go to the [Azure portal](https://portal.azure.com), from you local or cu
 
    ![](https://raw.githubusercontent.com/bhavangowdan/MCW-Machine-Learning/master/Hands-on%20lab/images/1c.PNG "Resource groups")
   
+
+     
+## Restrictions 
+- Cloud Labs' session time is limited. Your session will expire after the validity expires; and you will lose all your resources in the temporary Azure account. 
+
+
+- Later, when you'll come back or refresh the Cloud lab page, you will get a fresh new VM with a new pair of temporary credentials. 
+
+
+- **You will not be able to create additional Resource Groups.**  There is one resource group already created for you named cloud-demo-XXXXXX.  Choose the existing Resource Group when creating resources.  
+
+
+- When you create a new Virtual Machine, please make sure to change the default disc type from "Premium SSD" to "**Standard HDD**" for the "OS Disk Type" field on the "Discs" tab. Failure to do so will trigger a "Validation failed" error message.
+
+
+- You will not be able to create Active Directory resources. This is not a requirement for any project/exercise.
