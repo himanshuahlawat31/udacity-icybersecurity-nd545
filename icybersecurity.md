@@ -56,7 +56,4 @@ You can go to the [Azure portal](https://portal.azure.com) to view the current V
 - **You will not be able to create additional Resource Groups.**  There is one resource group already created for you named cloud-demo-XXXXXX.  Choose the existing Resource Group when creating resources.  
 
 
-- When you create a new Virtual Machine, please make sure to change the default disc type from "Premium SSD" to "**Standard HDD**" for the "OS Disk Type" field on the "Discs" tab. Failure to do so will trigger a "Validation failed" error message.
-
-
 - You will not be able to create Active Directory resources. This is not a requirement for any project/exercise.
